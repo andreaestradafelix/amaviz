@@ -1,0 +1,63 @@
+.nav-container {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #124377;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.2rem 2rem .8rem;
+}
+
+.nav-links {
+  margin-left: auto;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1.8rem;
+  font-size: 1rem;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Hamburger */
+.nav-hamburger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: white;
+  line-height: 1;
+}
+
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  background: white;
+  padding: .75rem 2rem 1rem;
+  border-top: 1px solid #eee;
+}
+
+.mobile-menu a {
+  color: #000;
+  text-decoration: none;
+  padding: .5rem 0;
+  font-size: .95rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.mobile-menu a:last-child {
+  border-bottom: none;
+}
+
+.mobile-menu.open {
+  display: flex;
+}
+
