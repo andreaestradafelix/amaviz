@@ -2,6 +2,7 @@
 import Hero from "../components/Hero";
 import Card from "../components/Card";
 import { cardHome } from "../data/amavizData";
+import Footer from "../components/Footer";
 
 
 export default function Home() {
@@ -27,8 +28,44 @@ export default function Home() {
                     />
                 ))}
 
+                <div className="amaviz-fourfour">
 
+                    <div className="amaviz-one">
+                        <h3 className="one-tile">it's time to enter</h3>
+                        <h3 className="one-title">your glow era</h3>
+                        <p className="one-text">Regálate un momento para ti. En nuestro spa
+                            encontrarás el equilibrio perfecto entre relajación,
+                            bienestar y cuidado personal. Disfruta
+                            de tratamientos diseñados para liberar el estrés, renovar
+                            tu energía y consentir tu cuerpo.</p>
+                        <button className="one-btn">Agendar</button>
+                    </div>
 
+                    <div className="amaviz-two">
+                        <img src="" />
+                    </div>
+
+                    <div className="amaviz-three">
+                        <img src="" />
+                    </div>
+
+                    <div className="amaviz-four">
+                        <h3 className="four-title">los favoritos</h3>
+                        <p className="four-fav">Micropunción</p>
+                        <p className="four-fav">Facial Barrera</p>
+                        <p className="four-fav">Depilación Láser Bikini Full Pro</p>
+                        <button className="four-btn">Ver Servicios</button>
+                    </div>
+
+                    <div className="amaviz-brands">
+                        <p className="brands-texts">Concoce las marcas con las qie trabajamos</p>
+                        <img className="brands-img" alt="casmara"/>
+                        <img className="brands-img"alt="ainhoa"/>
+                        <img className="brands-img"alt="celluma"/>
+                        <img className="brands-img"alt="germaine"/>
+                    </div>
+                    <Footer />
+                </div>
             </section>
         </>
     );

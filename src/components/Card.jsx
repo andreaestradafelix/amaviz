@@ -5,7 +5,7 @@ export default function Card({ img, title, description, button }) {
             <img src={img} alt={title} />
             <h3>{title}</h3>
             <p>{description}</p>
-            <button>{button}</button>
+            <button>{button}Ver tratamientos</button>
         </div>
     )
 
