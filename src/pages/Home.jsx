@@ -1,5 +1,7 @@
 
 import Hero from "../components/Hero";
+import Card from "../components/Card";
+import { cardHome } from "../data/amavizData";
 
 
 export default function Home() {
@@ -15,6 +17,17 @@ export default function Home() {
                     <p className="amaviz-paragraph-text">En nuestro spa encontrarás un espacio diseñado para tu bienestar, donde
                         cada tratatamiento está pensado para ayudarte a relajarte, renovar tu energía y cuidar tu piel en un ambiente de trabquilidad y armonía.</p>
                 </div>
+
+                {cardHome.map((card) => (
+                    <Card
+                        key={card.id}
+                        title={card.title}
+                        description={card.description}
+                        button={card.url}
+                    />
+                ))}
+
+
 
             </section>
         </>
