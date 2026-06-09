@@ -10,9 +10,8 @@ export default function Navbar() {
     return (
         <div className="nav-container">
             <nav className="nav">
-                <img src="../images/LogoAmaviz.png" href="#" alt="Logo" width="" height="100" />
+                <Link to="/"><img src="../images/LogoAmaviz.png" alt="Logo" height="100" /></Link>
                 <div className="nav-links">
-                    <Link to="/">Home</Link>
                     <Link to="/services">Servicios</Link>
                     <Link to="/about">Acerca de</Link>
                     <Link to="/faqs">FAQS</Link>

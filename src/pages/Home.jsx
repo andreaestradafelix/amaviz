@@ -1,4 +1,16 @@
 
-export default function Home(){
-    
+import Hero from "../components/Hero";
+
+
+export default function Home() {
+
+    return (
+        <>
+        <Hero />
+            <div id="home">
+
+            </div>
+        </>
+    );
+
 }
