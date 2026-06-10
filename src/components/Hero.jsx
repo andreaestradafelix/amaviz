@@ -1,3 +1,4 @@
+import '../styles/hero.css';
 
 export default function Hero(){
 

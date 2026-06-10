@@ -8,10 +8,13 @@
 .nav {
   display: flex;
   flex-wrap: wrap;
-  padding: 1.2rem 2rem .8rem;
+  align-items: center;
+  padding: .6rem 2rem;
 }
 
 .nav-links {
+  display: flex;
+  align-items: center;
   margin-left: auto;
 }
 

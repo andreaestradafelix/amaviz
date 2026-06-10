@@ -3,14 +3,15 @@ import Hero from "../components/Hero";
 import Card from "../components/Card";
 import { cardHome } from "../data/amavizData";
 import Footer from "../components/Footer";
+import '../styles/home.css'
 
 
 export default function Home() {
 
     return (
-        <>
+        <> <Hero />
             <section className="amaviz-home" id="home">
-                <Hero />
+               
 
                 <div className="amaviz-home-text">
                     <p className="amaviz-welcome-text">Bienvenidos a Amavíz</p>
