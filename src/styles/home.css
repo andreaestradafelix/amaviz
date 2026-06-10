@@ -5,13 +5,23 @@
     content: normal;
     color: #124377;
 }
+.container-cards{
+    background-color: #F3EDE0;
+}
 
 .amaviz-welcome-text {
     padding: 1.5px;
+    
 }
 
 .amaviz-slogan-text {
     padding: 1.5px;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.highlight-yellow {
+    color: #6380A8;
 }
 
 .amaviz-paragraph-text {
@@ -25,4 +35,23 @@
     justify-content: center;
     gap: 1.5rem;
     padding: 2rem;
+}
+
+.amaviz-fourfour {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.amaviz-two img,
+.amaviz-three img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.amaviz-brands {
+    grid-column: 1 / -1;
 }

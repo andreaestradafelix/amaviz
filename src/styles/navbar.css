@@ -10,12 +10,21 @@
   flex-wrap: wrap;
   align-items: center;
   padding: .6rem 2rem;
+  overflow: visible;
+}
+
+.nav-logo {
+  height: 130px;
+  margin: -25px 0;
+  display: block;
 }
 
 .nav-links {
   display: flex;
   align-items: center;
+  align-self: flex-end;
   margin-left: auto;
+  padding-bottom: .4rem;
 }
 
 .nav-links a {

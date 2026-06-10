@@ -2,7 +2,6 @@
 import Hero from "../components/Hero";
 import Card from "../components/Card";
 import { cardHome } from "../data/amavizData";
-import Footer from "../components/Footer";
 import '../styles/home.css'
 
 
@@ -11,26 +10,29 @@ export default function Home() {
     return (
         <> <Hero />
             <section className="amaviz-home" id="home">
-               
+
 
                 <div className="amaviz-home-text">
                     <p className="amaviz-welcome-text">Bienvenidos a Amavíz</p>
-                    <p className="amaviz-slogan-text"><strong>SALUD DE TU PIEL ES NUESTRA PRIORIDAD</strong></p>
+                    <p className="amaviz-slogan-text"><strong>LA SALUD DE TU <span className="highlight-yellow">PIEL</span> ES NUESTRA <span className="highlight-yellow">PRIORIDAD</span></strong></p>
                     <p className="amaviz-paragraph-text">En nuestro spa encontrarás un espacio diseñado para tu bienestar, donde
                         cada tratatamiento está pensado para ayudarte a relajarte, renovar tu energía y cuidar tu piel en un ambiente de trabquilidad y armonía.</p>
                 </div>
 
-                <div className="amaviz-cards">
-                    {cardHome.map((card) => (
-                        <Card
-                            key={card.id}
-                            img={card.img}
-                            title={card.title}
-                            description={card.description}
-                            url={card.url}
-                        />
-                    ))}
+                <div className="container-cards">
+                    <div className="amaviz-cards">
+                        {cardHome.map((card) => (
+                            <Card
+                                key={card.id}
+                                img={card.img}
+                                title={card.title}
+                                description={card.description}
+                                url={card.url}
+                            />
+                        ))}
+                    </div>
                 </div>
+
 
                 <div className="amaviz-fourfour">
 
@@ -46,11 +48,11 @@ export default function Home() {
                     </div>
 
                     <div className="amaviz-two">
-                        <img src="/images/home/facial-photo.jpg" alt="Faciales" />
+                        <img src="/images/home/nails-photo.jpg" alt="Faciales" />
                     </div>
 
                     <div className="amaviz-three">
-                        <img src="/images/home/laser-photo.jpg" alt="Depilación láser" />
+                        <img src="/images/home/laser2-photo.jpg" alt="Depilación láser" />
                     </div>
 
                     <div className="amaviz-four">
@@ -63,12 +65,11 @@ export default function Home() {
 
                     <div className="amaviz-brands">
                         <p className="brands-texts">Concoce las marcas con las qie trabajamos</p>
-                        <img className="brands-img" alt="casmara"/>
-                        <img className="brands-img"alt="ainhoa"/>
-                        <img className="brands-img"alt="celluma"/>
-                        <img className="brands-img"alt="germaine"/>
+                        <img className="brands-img" alt="casmara" />
+                        <img className="brands-img" alt="ainhoa" />
+                        <img className="brands-img" alt="celluma" />
+                        <img className="brands-img" alt="germaine" />
                     </div>
-                    <Footer />
                 </div>
             </section>
         </>
