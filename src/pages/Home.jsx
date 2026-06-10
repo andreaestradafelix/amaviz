@@ -20,14 +20,17 @@ export default function Home() {
                         cada tratatamiento está pensado para ayudarte a relajarte, renovar tu energía y cuidar tu piel en un ambiente de trabquilidad y armonía.</p>
                 </div>
 
-                {cardHome.map((card) => (
-                    <Card
-                        key={card.id}
-                        title={card.title}
-                        description={card.description}
-                        button={card.url}
-                    />
-                ))}
+                <div className="amaviz-cards">
+                    {cardHome.map((card) => (
+                        <Card
+                            key={card.id}
+                            img={card.img}
+                            title={card.title}
+                            description={card.description}
+                            url={card.url}
+                        />
+                    ))}
+                </div>
 
                 <div className="amaviz-fourfour">
 
@@ -43,11 +46,11 @@ export default function Home() {
                     </div>
 
                     <div className="amaviz-two">
-                        <img src="" />
+                        <img src="/images/home/facial-photo.jpg" alt="Faciales" />
                     </div>
 
                     <div className="amaviz-three">
-                        <img src="" />
+                        <img src="/images/home/laser-photo.jpg" alt="Depilación láser" />
                     </div>
 
                     <div className="amaviz-four">

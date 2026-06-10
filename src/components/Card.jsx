@@ -1,11 +1,16 @@
-export default function Card({ img, title, description, button }) {
+import '../styles/card.css';
+
+export default function Card({ img, title, description, url }) {
 
     return (
         <div className="card">
-            <img src={img} alt={title} />
-            <h3>{title}</h3>
-            <p>{description}</p>
-            <button>{button}Ver tratamientos</button>
+            <div className='individual-card'>
+                <img className='card-img' src={img} alt={title} />
+                <h3 className='card-title'>{title}</h3>
+                <p className='card-text'>{description}</p>
+                <button className='card-btn'>{url}Ver tratamientos</button>
+            </div>
+
         </div>
     )
 

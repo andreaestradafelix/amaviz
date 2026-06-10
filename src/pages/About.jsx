@@ -11,7 +11,7 @@ export default function About() {
 
             <div className="amaviz-about-photo">
                 <div className="about-photo">
-                    <img src="../images/about-photo.jpg" alt="Photo About" />
+                    <img src="/images/about-photo.jpg" alt="Photo About" />
                 </div>
             </div>
 

@@ -1,6 +1,6 @@
 .hero {
     min-height: 70vh;
-    background-image: url("/images/hero-photo.jpg");
+    background-image: url("/images/home/hero-photo.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
