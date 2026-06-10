@@ -73,3 +73,23 @@
   display: flex;
 }
 
+@media (max-width: 768px) {
+  .nav {
+    padding: .6rem 1rem;
+  }
+
+  .nav-logo {
+    height: 90px;
+    margin: -10px 0;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-hamburger {
+    display: block;
+    margin-left: auto;
+  }
+}
+

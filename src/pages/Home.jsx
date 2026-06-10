@@ -64,11 +64,11 @@ export default function Home() {
                     </div>
 
                     <div className="amaviz-brands">
-                        <p className="brands-texts">Concoce las marcas con las qie trabajamos</p>
-                        <img className="brands-img" alt="casmara" />
-                        <img className="brands-img" alt="ainhoa" />
-                        <img className="brands-img" alt="celluma" />
-                        <img className="brands-img" alt="germaine" />
+                        <p className="brands-texts">Concoce las marcas con las que trabajamos</p>
+                        <img className="brands-img" src="../images/home/casmara.png" alt="casmara" />
+                        <img className="brands-img" src="../images/home/ainhoa.png" alt="ainhoa" />
+                        <img className="brands-img" src="../images/home/celluma.png" alt="celluma" />
+                        <img className="brands-img" src="../images/home/germaine.png" alt="germaine" />
                     </div>
                 </div>
             </section>

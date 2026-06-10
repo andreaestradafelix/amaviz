@@ -70,3 +70,24 @@
     text-align: center;
     font-size: .9rem;
 }
+
+@media (max-width: 600px) {
+    .footer-top {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-logo {
+        align-self: center;
+        margin-top: 0;
+    }
+
+    .footer-link {
+        max-height: none;
+    }
+
+    .footer-link ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

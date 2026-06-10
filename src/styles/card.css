@@ -6,7 +6,8 @@
     color: #124377;
     background-color: #F3EDE0;
     overflow: hidden;
-    width: 280px;
+    width: 100%;
+    max-width: 280px;
     padding-bottom: 1.5rem;
 }
 .individual-card{

@@ -32,3 +32,19 @@
 .btn-hero:hover {
     background: #0d3a60;
 }
+
+@media (max-width: 768px) {
+    .hero {
+        min-height: 50vh;
+        padding: 0 1.5rem;
+    }
+
+    .text-hero {
+        font-size: 1.4rem;
+    }
+
+    .btn-hero {
+        font-size: .9rem;
+        padding: .6rem 1.2rem;
+    }
+}

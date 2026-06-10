@@ -54,4 +54,63 @@
 
 .amaviz-brands {
     grid-column: 1 / -1;
+    background-color: #F3EDE0;
+    text-align: center;
+}
+
+.brands-texts{
+    margin: 10px;
+}
+
+.amaviz-brands {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.brands-texts{
+    width: 100%;
+}
+
+.brands-img{
+    margin-bottom: 10px;
+    max-width: 120px;
+    height: auto;
+}
+
+@media (max-width: 1024px) {
+    .amaviz-fourfour {
+        grid-template-columns: 1fr;
+    }
+
+    .amaviz-brands {
+        grid-column: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .amaviz-home-text {
+        padding: 30px 20px;
+    }
+
+    .amaviz-slogan-text {
+        font-size: 1.3rem;
+    }
+
+    .amaviz-fourfour {
+        padding: 1rem;
+        gap: 1.5rem;
+    }
+
+    .amaviz-two img,
+    .amaviz-three img {
+        aspect-ratio: 16 / 9;
+    }
+
+    .brands-img {
+        max-width: 90px;
+    }
 }
