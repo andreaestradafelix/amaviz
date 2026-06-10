@@ -20,19 +20,23 @@
 
 .card-title {
     margin-top: 1rem;
+    margin-bottom: .5rem;;
+    padding: 1px;
 }
 
 .card-text {
     padding: 0 1rem;
     font-size: .9rem;
+    padding: 1px;
+    margin-bottom: 1rem;;
 }
 
 .card-btn {
     margin-top: .5rem;
     padding: .6rem 1.4rem;
-    border: none;
+    border-color: #124377;
     border-radius: 999px;
-    background: #124377;
-    color: #fff;
+    background: #F3EDE0; 
+    color: #124377;
     cursor: pointer;
 }
