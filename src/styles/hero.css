@@ -1,5 +1,5 @@
 .hero {
-    min-height: 80vh;
+    min-height: 90vh;
     background-image: url("/images/home/hero-photo.jpg");
     background-size: cover;
     background-position: center 25%;
@@ -7,15 +7,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 1.5rem;
+    padding-bottom: 5rem;
 }
 
 .text-hero {
     text-align: center;
-    color: #fff;
+    color: #124377;
     font-size: 3rem;
-    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 2px 6px rgba(143, 154, 159, 0.5); 
+    
 }
 
 .btn-hero {

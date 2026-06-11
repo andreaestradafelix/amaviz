@@ -5,7 +5,8 @@
     content: normal;
     color: #124377;
 }
-.container-cards{
+
+.container-cards {
     background-color: #F3EDE0;
 }
 
@@ -18,70 +19,122 @@
 .amaviz-slogan-text {
     padding: 1.5px;
     font-size: 1.8rem;
+    margin-bottom: 15px;
     font-weight: 600;
 }
 
-.highlight-yellow {
+.highlight-blue {
     color: #6380A8;
 }
 
 .amaviz-paragraph-text {
     padding: 1.5px;
-
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .amaviz-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 280px));
     justify-content: center;
-    gap: 1.5rem;
-    padding: 2rem;
+    gap: 4rem;
+    padding: 3rem;
 }
 
-
-.amaviz-fourfour {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 0;
-    padding: 2rem;
-    color: #124377;
+.amaviz-section {
     background-color: #F3EDE0;
+    color: #124377;
+    padding: 3rem;
 }
 
-.one-text{
-    text-align: left;
-    margin: 30px;
-}
-
-.amaviz-one,
-.amaviz-two,
-.amaviz-three,
-.amaviz-four {
-    aspect-ratio: 1 / 1;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #124377;
-    overflow: hidden;
-    box-sizing: border-box;
-}
-
-.amaviz-one,
-.amaviz-four {
+.amaviz-one {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    padding: 1.5rem;
+    gap: 2rem;
+    margin-bottom: 70px;
 }
 
-.amaviz-two img,
-.amaviz-three img {
-    width: 100%;
-    height: 100%;
+.amaviz-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.one-content {
+    max-width: 500px;
+}
+
+.one-title {
+    font-size: 1.6rem;
+}
+
+.one-text {
+    margin: 2rem 0;
+
+}
+
+.one-img {
+    width: 600px;
+    height: 520px;
     object-fit: cover;
 }
+
+.one-btn {
+    width: 150px;
+    margin-top: auto;
+    align-self: center;
+    padding: .6rem 1.4rem;
+    border-color: #124377;
+    border-radius: 999px;
+    background: #F3EDE0;
+    color: #124377;
+    cursor: pointer;
+}
+
+.one-btn:hover{
+    background: #0d3a60;
+    color: #fff;
+}
+
+.two-img {
+    width: 890px;
+    height: 520px;
+    object-fit: cover;
+
+}
+
+.two-content {
+    max-width: 500px;
+}
+
+.two-title {
+    font-size: 1.6rem;
+}
+
+.two-fav,
+.two {
+    margin: .5rem 0;
+}
+
+.two-btn {
+    width: 150px;
+    margin-top: 1rem;
+    padding: .6rem 1.4rem;
+    border-color: #124377;
+    border-radius: 999px;
+    background: #F3EDE0;
+    color: #124377;
+    cursor: pointer;
+}
+
+.two-btn:hover{
+    background: #0d3a60;
+    color: #fff;
+}
+
+
+
 
 .amaviz-brands {
     grid-column: 1 / -1;
@@ -89,7 +142,7 @@
     text-align: center;
 }
 
-.brands-texts{
+.brands-texts {
     margin: 10px;
 }
 
@@ -102,11 +155,11 @@
     padding: 1rem;
 }
 
-.brands-texts{
+.brands-texts {
     width: 100%;
 }
 
-.brands-img{
+.brands-img {
     margin-bottom: 10px;
     max-width: 120px;
     height: auto;
@@ -132,7 +185,7 @@
     }
 
     .amaviz-fourfour {
-        padding: 1rem;
+        padding: 0;
         gap: 0;
     }
 
