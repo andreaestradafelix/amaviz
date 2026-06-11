@@ -1,0 +1,57 @@
+.amaviz-faqs {
+    background-color: #F3EDE0;
+    color: #124377;
+    min-height: 100vh;
+    padding: 60px 20px;
+}
+
+.faqs-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.faqs-list {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    border-bottom: 1px solid #C2B19C;
+}
+
+.faq-question {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    background: none;
+    border: none;
+    padding: 1.2rem 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #124377;
+    text-align: left;
+    cursor: pointer;
+}
+
+.faq-icon {
+    font-size: 1.5rem;
+    line-height: .5;
+    flex-shrink: 0;
+}
+
+.faq-answer {
+    padding: 0 0 1.2rem;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .amaviz-faqs {
+        padding: 40px 16px;
+    }
+
+    .faq-question {
+        font-size: 1rem;
+    }
+}
