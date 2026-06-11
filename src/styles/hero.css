@@ -1,8 +1,8 @@
 .hero {
-    min-height: 70vh;
+    min-height: 80vh;
     background-image: url("/images/home/hero-photo.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center 25%;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -14,16 +14,24 @@
 .text-hero {
     text-align: center;
     color: #fff;
-    font-size: 2rem;
+    font-size: 3rem;
     text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
 }
 
 .btn-hero {
-    padding: .8rem 1.6rem;
+    /*padding: .8rem 1.6rem;
     border: none;
     border-radius: 999px;
     background: #124377;
     color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    letter-spacing: 0.01rem;*/
+    padding: .8rem 1.6rem;
+    border: none;
+    border-radius: 999px;
+    background: rgba(229, 232, 236, 0.8); /* 80% visible */
+    color: #124377;
     font-size: 1rem;
     cursor: pointer;
     letter-spacing: 0.01rem;
@@ -31,6 +39,7 @@
 
 .btn-hero:hover {
     background: #0d3a60;
+    color: #fff;
 }
 
 @media (max-width: 768px) {

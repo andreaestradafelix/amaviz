@@ -11,7 +11,8 @@
 
 .amaviz-welcome-text {
     padding: 1.5px;
-    
+    font-size: 1.8rem;
+    font-weight: 100;
 }
 
 .amaviz-slogan-text {
@@ -30,25 +31,55 @@
 }
 
 .amaviz-cards {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 280px));
     justify-content: center;
     gap: 1.5rem;
     padding: 2rem;
 }
 
+
 .amaviz-fourfour {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    gap: 2rem;
+    gap: 0;
     padding: 2rem;
+    color: #124377;
+    background-color: #F3EDE0;
+}
+
+.one-text{
+    text-align: left;
+    margin: 30px;
+}
+
+.amaviz-one,
+.amaviz-two,
+.amaviz-three,
+.amaviz-four {
+    aspect-ratio: 1 / 1;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #124377;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.amaviz-one,
+.amaviz-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1.5rem;
 }
 
 .amaviz-two img,
 .amaviz-three img {
     width: 100%;
-    aspect-ratio: 1 / 1;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -102,12 +133,7 @@
 
     .amaviz-fourfour {
         padding: 1rem;
-        gap: 1.5rem;
-    }
-
-    .amaviz-two img,
-    .amaviz-three img {
-        aspect-ratio: 16 / 9;
+        gap: 0;
     }
 
     .brands-img {

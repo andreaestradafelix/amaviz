@@ -16,7 +16,7 @@ export default function Home() {
                     <p className="amaviz-welcome-text">Bienvenidos a Amavíz</p>
                     <p className="amaviz-slogan-text"><strong>LA SALUD DE TU <span className="highlight-yellow">PIEL</span> ES NUESTRA <span className="highlight-yellow">PRIORIDAD</span></strong></p>
                     <p className="amaviz-paragraph-text">En nuestro spa encontrarás un espacio diseñado para tu bienestar, donde
-                        cada tratatamiento está pensado para ayudarte a relajarte, renovar tu energía y cuidar tu piel en un ambiente de trabquilidad y armonía.</p>
+                        cada tratamiento está pensado para ayudarte a relajarte, renovar tu energía y cuidar tu piel en un ambiente de tranquilidad y armonía.</p>
                 </div>
 
                 <div className="container-cards">
@@ -36,8 +36,12 @@ export default function Home() {
 
                 <div className="amaviz-fourfour">
 
+
+
+
+                        
                     <div className="amaviz-one">
-                        <h3 className="one-tile">it's time to enter</h3>
+                        <h3 className="one-title">it's time to enter</h3>
                         <h3 className="one-title">your glow era</h3>
                         <p className="one-text">Regálate un momento para ti. En nuestro spa
                             encontrarás el equilibrio perfecto entre relajación,
