@@ -1,0 +1,63 @@
+.amaviz-services {
+    background-color: #F3EDE0;
+    color: #124377;
+    text-align: center;
+    padding: 3rem;
+}
+
+.services-title {
+    margin-bottom: 2rem;
+    font-weight: 100;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 0;
+    min-width: 200px;
+    max-width: 280px;
+}
+
+.services-img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border: none;
+}
+
+.services-btn {
+    position: absolute;
+    width: 160px;
+    padding: .6rem 1.4rem;
+    border: 1px solid #124377;
+    border-radius: 999px;
+    background: #F3EDE0;
+    color: #124377;
+    cursor: pointer;
+}
+
+.services-btn:hover {
+    background: #0d3a60;
+    color: #fff;
+}
+
+@media (max-width: 1024px) {
+    .service-item {
+        min-width: 45%;
+    }
+}
+
+@media (max-width: 600px) {
+    .service-item {
+        min-width: 100%;
+        max-width: 100%;
+    }
+}

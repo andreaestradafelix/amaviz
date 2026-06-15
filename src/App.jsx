@@ -5,7 +5,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
 import Home from "./pages/Home";
-import Services from "./pages/Services";
+import Services from "./pages/Services/Services";
 import About from "./pages/About";
 import Faqs from "./pages/Faqs";
 import Journal from "./pages/Journal";

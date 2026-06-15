@@ -1,16 +1,23 @@
+import { services } from '../../data/services';
+import '../../styles/services.css';
 
-export default function Services(){
-    
-    <section className="amaviz-services" id="services">
-        
-        <h1 className="services-title">Faciales</h1>
-        <p className="services-text">Cada facial es personalizado según el tió de piel y necesidades</p>
+export default function Services() {
 
-        <div className="services-list">
+    return (
+        <section className="amaviz-services" id="services">
 
-        </div>
+            <h1 className="services-title">Servicios</h1>
 
+            <div className="services-list">
+                {services.map((service) => (
+                    <div className="service-item" key={service.id}>
+                        <img className='services-img' src={service.img} alt={service.type} />
+                        <button className='services-btn'>{service.type}</button>
+                    </div>
+                ))}
+            </div>
 
-    </section>
+        </section>
+    );
 
 }
