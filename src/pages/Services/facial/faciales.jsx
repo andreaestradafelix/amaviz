@@ -29,6 +29,7 @@ export default function Faciales() {
                         )}
                     </div>
                 ))}
+                <button>Agendar</button>
             </div>
         </section>
     );

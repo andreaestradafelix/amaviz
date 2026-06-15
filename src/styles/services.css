@@ -40,7 +40,7 @@
     padding: .6rem 1.4rem;
     border: 1px solid #124377;
     border-radius: 999px;
-    background: #F3EDE0;
+    background: rgba(255, 255, 255, .5); /* 80% visible */
     color: #124377;
     text-align: center;
     text-decoration: none;
