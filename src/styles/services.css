@@ -35,12 +35,15 @@
 
 .services-btn {
     position: absolute;
+    display: inline-block;
     width: 160px;
     padding: .6rem 1.4rem;
     border: 1px solid #124377;
     border-radius: 999px;
     background: #F3EDE0;
     color: #124377;
+    text-align: center;
+    text-decoration: none;
     cursor: pointer;
 }
 

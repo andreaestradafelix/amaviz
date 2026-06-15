@@ -33,13 +33,19 @@ export default function Home() {
                     </div>
                 </div>
 
-
-
-
+                <div className="amaviz-lealtad">
+                    <div className="lealtad-content">
+                        <h3 className="lealtad-title">Conoce nuestra</h3>
+                        <h3 className="lealtad-title">Tarjeta de Lealtad</h3>
+                        <p className="descarga-lealtad"><u>Decargala aquí</u></p>
+                    </div>
+                    <img className="img-lealtad" src="/images/home/tarjeta.png" alt="tarjeta" />
+                </div>
 
                 <div className="amaviz-section">
-                        
+
                     <div className="amaviz-one">
+                        <img className="one-img" src="/images/home/nails-photo.jpg" alt="Faciales" />
                         <div className="one-content">
                             <h3 className="one-title">it's time to enter</h3>
                             <h3 className="one-title">your glow era</h3>
@@ -50,7 +56,6 @@ export default function Home() {
                                 tu energía y consentir tu cuerpo.</p>
                             <button className="one-btn">Agendar</button>
                         </div>
-                        <img className="one-img" src="/images/home/nails-photo.jpg" alt="Faciales" />
                     </div>
 
 

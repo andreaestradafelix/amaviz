@@ -41,6 +41,36 @@
     padding: 3rem;
 }
 
+.amaviz-lealtad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #F3EDE0;
+    color: #124377;
+    padding: 3rem;
+}
+
+.lealtad-content {
+    max-width: 500px;
+    text-align: center;
+}
+
+.lealtad-title {
+    font-size: 1.6rem;
+}
+
+.descarga-lealtad {
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.img-lealtad {
+    width: 400px;
+    height: auto;
+    object-fit: contain;
+}
+
 .amaviz-section {
     background-color: #F3EDE0;
     color: #124377;
@@ -75,9 +105,12 @@
 }
 
 .one-img {
-    width: 600px;
-    height: 520px;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #C2B19C;
 }
 
 .one-btn {
@@ -191,5 +224,17 @@
 
     .brands-img {
         max-width: 90px;
+    }
+
+    .amaviz-lealtad,
+    .amaviz-one {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .img-lealtad,
+    .one-img {
+        width: 100%;
+        max-width: 320px;
     }
 }
