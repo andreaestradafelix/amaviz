@@ -49,6 +49,7 @@
     background-color: #C2B19C;
     color: #124377;
     padding: 3rem;
+    
 }
 
 .lealtad-content {
@@ -101,6 +102,7 @@
 
 .one-text {
     margin: 2rem 0;
+    text-align: justify;
 
 }
 
@@ -108,9 +110,6 @@
     width: 400px;
     height: 400px;
     object-fit: cover;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #C2B19C;
 }
 
 .one-btn {

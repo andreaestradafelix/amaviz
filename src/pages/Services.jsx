@@ -13,7 +13,7 @@ export default function Services() {
                 {services.map((service) => (
                     <div className="service-item" key={service.id}>
                         <img className='services-img' src={service.img} alt={service.type} />
-                        {service.type === "Faciales" ? (
+                        {service.type === "Faciales" || service.type === "Corporal" ? (
                             <Link to={service.url} className='services-btn'>{service.type}</Link>
                         ) : (
                             <button className='services-btn'>{service.type}</button>

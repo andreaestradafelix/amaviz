@@ -7,17 +7,15 @@ export const services = [
 ]
 
 export const faciales = [
-    { id: 1, type: "Limpieza Profunda",         description: "" },
-    { id: 2, type: "Limpieza Facial Anti-edad", description: "" },
-    { id: 3, type: "Despigmentante",            description: "" },
-    { id: 4, type: "Facial con Celluma",        description: "" }
+    { id: 1, type: "Faciales de Autor"        },
+    { id: 2, type: "Tratamientos Correctivos" },
+    { id: 3, type: "Experiencias Casmara"     },
+    { id: 4, type: "Celluma"       }
 ]
 
 export const corporal = [
-    { id: 1, type: "Masajes" },
-    { id: 2, type: "Despigmentación" },
-    { id: 3, type: "Eliminación de Verrugas" },
-    { id: 4, type: "Reductivos" }
+    { id: 1, type: "Masajes", url:""},
+    { id: 3, type: "Eliminación de Verrugas", url:"" },
 ]
 
 export const laser = [
@@ -28,7 +26,5 @@ export const laser = [
 export const masServicios = [
     { id: 1, type: "Pedispa" },
     { id: 2, type: "Ruber" },
-    { id: 3, type: "Gelish" },
-    { id: 4, type: "Estensión de Pestañas" },
-    { id: 5, type: "Reductivos" }
+    { id: 3, type: "Gelish" }
 ]

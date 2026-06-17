@@ -39,7 +39,7 @@ export default function Home() {
                         <h3 className="lealtad-title">Tarjeta de Lealtad</h3>
                         <p className="descarga-lealtad"><u>Decargala aquí</u></p>
                     </div>
-                    <img className="img-lealtad" src="/images/home/tarjeta.png" alt="tarjeta" />
+                    <img className="img-lealtad" src="/images/home/cupon2.png" alt="tarjeta" />
                 </div>
 
                 <div className="amaviz-section">

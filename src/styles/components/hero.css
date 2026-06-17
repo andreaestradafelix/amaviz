@@ -14,8 +14,9 @@
 
 .text-hero {
     text-align: center;
+    font-family: "Playfair Display", serif;
     color: #124377;
-    font-size: 3rem;
+    font-size: 4rem;
     text-shadow: 0 2px 6px rgba(143, 154, 159, 0.5); 
     
 }

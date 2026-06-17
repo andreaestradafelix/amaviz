@@ -47,6 +47,17 @@
     flex-shrink: 0;
 }
 
+.faq-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.faq-arrow {
+    font-size: 1rem;
+    flex-shrink: 0;
+}
+
 .faq-answer {
     padding: 0 0 1.2rem;
     line-height: 1.6;
