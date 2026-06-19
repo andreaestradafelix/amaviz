@@ -8,6 +8,8 @@ import Home from "./pages/Home";
 import Services from "./pages/Services";
 import Faciales from "./pages/Services/facial/faciales";
 import Corporal from "./pages/Services/corporal/corporal";
+import Laser from "./pages/Services/laser/laser";
+import MasServicios from "./pages/Services/masServicios/masServicios";
 import About from "./pages/About";
 import Faqs from "./pages/Faqs";
 import Journal from "./pages/Journal";
@@ -25,6 +27,8 @@ function App() {
             <Route path="/services" element={<Services />}/>
             <Route path="/services/faciales" element={<Faciales />}/>
             <Route path="/services/corporal" element={<Corporal />}/>
+            <Route path="/services/laser" element={<Laser />}/>
+            <Route path="/services/mas-servicios" element={<MasServicios />}/>
             <Route path="/about" element={<About />}/>
             <Route path="/faqs" element={<Faqs />}/>
             <Route path="/journal" element={<Journal />}/>
