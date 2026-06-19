@@ -7,6 +7,7 @@ import Footer from './components/Footer'
 import Home from "./pages/Home";
 import Services from "./pages/Services";
 import Faciales from "./pages/Services/facial/faciales";
+import FacialesAutor from "./pages/Services/facial/facialesAutor";
 import Corporal from "./pages/Services/corporal/corporal";
 import Laser from "./pages/Services/laser/laser";
 import MasServicios from "./pages/Services/masServicios/masServicios";
@@ -26,6 +27,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />}/>
             <Route path="/services/faciales" element={<Faciales />}/>
+            <Route path="/services/faciales/faciales-de-autor" element={<FacialesAutor />}/>
             <Route path="/services/corporal" element={<Corporal />}/>
             <Route path="/services/laser" element={<Laser />}/>
             <Route path="/services/mas-servicios" element={<MasServicios />}/>

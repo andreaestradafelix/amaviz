@@ -1,4 +1,4 @@
-
+/**Datos de las tarjetas que aparecen en home */
 export const cardHome = [
     {
         id: 1,
