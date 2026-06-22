@@ -24,7 +24,22 @@ export const laser = [
 ]
 
 export const masServicios = [
-    { id: 1, type: "Pedispa" },
-    { id: 2, type: "Ruber" },
-    { id: 3, type: "Gelish" }
+    {
+        id: 1,
+        type: "Pedispa",
+        img: "/images/home/nails-photo.jpg",
+        description: "Tratamiento relajante para el cuidado y embellecimiento de los pies. Incluye exfoliación, hidratación profunda y masaje reconfortante."
+    },
+    {
+        id: 2,
+        type: "Ruber",
+        img: "/images/home/nails-photo.jpg",
+        description: "Técnica de uñas con acabado suave y flexible que brinda una apariencia natural y duradera, perfecta para el cuidado diario."
+    },
+    {
+        id: 3,
+        type: "Gelish",
+        img: "/images/home/nails-photo.jpg",
+        description: "Esmalte en gel de larga duración con acabado brillante y profesional. Resiste hasta semanas sin astillarse ni perder color."
+    }
 ]
