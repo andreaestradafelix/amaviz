@@ -11,6 +11,7 @@ export default function Masajes() {
                 {masajes.map((item) => (
                     <div className='masajes-card' key={item.id}> 
                     <h3 className='masajes-title'>{item.name}</h3>
+                    
                     <p className='masajes-decription'>{item.description}</p>
                     </div>
                 ))}

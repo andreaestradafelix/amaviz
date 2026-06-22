@@ -20,28 +20,28 @@ export const masajes = [
 export const verrugas = [
     {
         id: 1,
-        area: "1 a 5 Verrugas",
+        cantidad: "1 a 5 Verrugas",
         cost: 300
     },
     {
         id: 2,
-        area: "6 a 10 Verrugas",
-        costUno: 500
+        cantidad: "6 a 10 Verrugas",
+        cost: 500
 
     },
     {
         id: 3,
-        area: "11 a 15 Verrugas",
-        costUno: 700
+        cantidad: "11 a 15 Verrugas",
+        cost: 700
     },
     {
         id: 4,
-        area: "16 a 20 Verrigas",
-        costUno: 800
+        cantidad: "16 a 20 Verrigas",
+        cost: 800
     },
     {
         id: 5,
-        area: "Más de 20 Verrugas",
-        costUno: 1000
+        cantidad: "Más de 20 Verrugas",
+        cost: 1000
     }
 ]
