@@ -11,14 +11,15 @@ export default function Home() {
         <> <Hero />
             <section className="amaviz-home" id="home">
 
-
+                {/*Bienvenida*/}
                 <div className="amaviz-home-text">
-                    <p className="amaviz-welcome-text">Bienvenidos a Amavíz</p>
+                    <p className="amaviz-welcome-text">Bienvenido a Amavíz</p>
                     <p className="amaviz-slogan-text"><strong>LA SALUD DE TU <span className="highlight-blue">PIEL</span> ES NUESTRA <span className="highlight-blue">PRIORIDAD</span></strong></p>
                     <p className="amaviz-paragraph-text">En nuestro spa encontrarás un espacio diseñado para tu bienestar, donde
                         cada tratamiento está pensado para ayudarte a relajarte, renovar tu energía y cuidar tu piel en un ambiente de tranquilidad y armonía.</p>
                 </div>
 
+                {/*Cards de servicios destacados*/}
                 <div className="container-cards">
                     <div className="amaviz-cards">
                         {cardHome.map((card) => (
@@ -33,6 +34,7 @@ export default function Home() {
                     </div>
                 </div>
 
+                {/*Tarjeta de lealtad*/}
                 <div className="amaviz-lealtad">
                     <div className="lealtad-content">
                         <h3 className="lealtad-title">Conoce nuestra</h3>
@@ -42,8 +44,9 @@ export default function Home() {
                     <img className="img-lealtad" src="/images/home/cupon2.png" alt="tarjeta" />
                 </div>
 
+                {/*Sección de información*/}
                 <div className="amaviz-section">
-
+                    {/*Sección 1*/}
                     <div className="amaviz-one">
                         <img className="one-img" src="/images/home/nails-photo.jpg" alt="Faciales" />
                         <div className="one-content">
@@ -57,17 +60,25 @@ export default function Home() {
                             <button className="one-btn">Agendar</button>
                         </div>
                     </div>
-
-
-
-                    <div className="amaviz-brands">
-                        <p className="brands-texts">Concoce las marcas con las que trabajamos</p>
-                        <img className="brands-img" src="/images/home/casmara.png" alt="casmara" />
-                        <img className="brands-img" src="/images/home/ainhoa.png" alt="ainhoa" />
-                        <img className="brands-img" src="/images/home/celluma.png" alt="celluma" />
-                        <img className="brands-img" src="/images/home/germaine.png" alt="germaine" />
+                    {/*Seccióm 2*/}
+                    <div className="amaviz-two">
+                        <h3 className="two-title">los favoritos</h3>
+                        <p className="two-text">Micropunción</p>
+                        <p className="two-text">Limpieza Profunda</p>
+                        <p className="two-text">Depilación Bikini Full</p>
+                        <p className="two-text">Depilación Axila</p>
                     </div>
                 </div>
+
+                {/*Sección de marcas*/}
+                <div className="amaviz-brands">
+                    <p className="brands-texts">Concoce las marcas con las que trabajamos</p>
+                    <img className="brands-img" src="/images/home/casmara.png" alt="casmara" />
+                    <img className="brands-img" src="/images/home/ainhoa.png" alt="ainhoa" />
+                    <img className="brands-img" src="/images/home/celluma.png" alt="celluma" />
+                    <img className="brands-img" src="/images/home/germaine.png" alt="germaine" />
+                </div>
+
             </section>
         </>
     );

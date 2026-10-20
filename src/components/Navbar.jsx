@@ -14,7 +14,7 @@ export default function Navbar() {
                 <div className="nav-links">
                     <Link to="/services">Servicios</Link>
                     <Link to="/about">Acerca de</Link>
-                    <Link to="/faqs">FAQS</Link>
+                    <Link to="/faqs">FAQs</Link>
                     <Link to="/journal">Journal</Link>
                 </div>
                 <button className="nav-hamburger" onClick={() => setOpen(o => !o)}>
