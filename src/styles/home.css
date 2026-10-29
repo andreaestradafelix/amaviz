@@ -1,4 +1,3 @@
-
 /*Bievenida*/
 .amaviz-home-text {
     background-color: #F3EDE0;
@@ -7,39 +6,105 @@
     content: normal;
     color: #124377;
 }
+
 .amaviz-welcome-text {
     padding: 1.5px;
     font-size: 1.8rem;
     font-weight: 100;
 }
+
 .amaviz-slogan-text {
     padding: 1.5px;
     font-size: 1.8rem;
     margin-bottom: 15px;
     font-weight: 600;
 }
+
 .highlight-blue {
     color: #6380A8;
 }
+
 .amaviz-paragraph-text {
-    padding: 1.8px;
-    max-width: 600px;
+    padding: 1.5px;
+    font-size: 1.1rem;
+    max-width: 700px;
     margin: 0 auto;
 }
-
 
 /*Cards de servicios destacados*/
 .container-cards {
     background-color: #F3EDE0;
 }
+
 .amaviz-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 280px));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 320px));
     justify-content: center;
-    gap: 4rem;
+    gap: 3rem;
     padding: 3rem;
 }
 
+.card {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #C2B19C;
+    text-align: center;
+    color: #124377;
+    background-color: #F3EDE0;
+    overflow: hidden;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.individual-card {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.card-img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.card-title {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    min-height: 2.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    flex: 1;
+}
+
+/*Botón en card*/
+/*.card-btn {
+    margin-top: auto;
+    lign-self: center;
+    padding: .6rem 1.4rem;
+    border-color: #124377;
+    border-radius: 999px;
+    background: #F3EDE0;
+    color: #124377;
+    cursor: pointer;
+}
+.card-btn:hover{
+    background: #6380A8;
+    color: #fff;
+} */
+
+
+/*Tarjeta de lealtad*/
 .amaviz-lealtad {
     display: flex;
     align-items: center;
@@ -48,7 +113,6 @@
     background-color: #C2B19C;
     color: #124377;
     padding: 3rem;
-    
 }
 
 .lealtad-content {
@@ -71,10 +135,11 @@
     object-fit: contain;
 }
 
+/*Sección de información*/
 .amaviz-section {
     background-color: #F3EDE0;
     color: #124377;
-    padding: 3rem;
+    padding: 5rem;
 }
 
 .amaviz-one {
@@ -82,99 +147,57 @@
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
+    /*Checar bien esto*/
 }
 
-.amaviz-two {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-}
 .one-content {
     max-width: 500px;
+    text-align: center;
 }
 
 .one-title {
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 .one-text {
     margin: 2rem 0;
-    text-align: justify;
+    text-align: center;
+    font-size: 1.1rem;
 
 }
 
-.one-img {
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-}
 
 .one-btn {
-    width: 150px;
+    width: 250px;
     margin-top: auto;
     align-self: center;
     padding: .6rem 1.4rem;
-    border-color: #124377;
+    border-color: #0d3a60;
     border-radius: 999px;
     background: #F3EDE0;
-    color: #124377;
+    color: #0d3a60;
     cursor: pointer;
+    font-size: 1.1rem;
 }
 
-.one-btn:hover{
-    background: #0d3a60;
-    color: #fff;
-}
-
-.two-img {
-    width: 890px;
-    height: 520px;
-    object-fit: cover;
-
-}
-
-.two-content {
-    max-width: 500px;
-}
-
-.two-title {
-    font-size: 1.6rem;
-}
-
-.two-fav,
-.two {
-    margin: .5rem 0;
-}
-
-.two-btn {
-    width: 150px;
-    margin-top: 1rem;
-    padding: .6rem 1.4rem;
-    border-color: #124377;
-    border-radius: 999px;
-    background: #F3EDE0;
-    color: #124377;
-    cursor: pointer;
-}
-
-.two-btn:hover{
+.one-btn:hover {
     background: #0d3a60;
     color: #fff;
 }
 
 
-
-
+/*Marcas*/
 .amaviz-brands {
     grid-column: 1 / -1;
     background-color: #F3EDE0;
     text-align: center;
+    color: #124377;
 }
 
 .brands-texts {
     margin: 10px;
+    font-size: 1.1rem;
 }
 
 .amaviz-brands {
@@ -195,6 +218,8 @@
     max-width: 120px;
     height: auto;
 }
+
+
 
 @media (max-width: 1024px) {
     .amaviz-fourfour {

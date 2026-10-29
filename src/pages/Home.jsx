@@ -28,27 +28,16 @@ export default function Home() {
                                 img={card.img}
                                 title={card.title}
                                 description={card.description}
-                                url={card.url}
+                            /*url={card.url} */
                             />
                         ))}
                     </div>
-                </div>
-
-                {/*Tarjeta de lealtad*/}
-                <div className="amaviz-lealtad">
-                    <div className="lealtad-content">
-                        <h3 className="lealtad-title">Conoce nuestra</h3>
-                        <h3 className="lealtad-title">Tarjeta de Lealtad</h3>
-                        <p className="descarga-lealtad"><u>Decargala aquí</u></p>
-                    </div>
-                    <img className="img-lealtad" src="/images/home/cupon2.png" alt="tarjeta" />
                 </div>
 
                 {/*Sección de información*/}
                 <div className="amaviz-section">
                     {/*Sección 1*/}
                     <div className="amaviz-one">
-                        <img className="one-img" src="/images/home/nails-photo.jpg" alt="Faciales" />
                         <div className="one-content">
                             <h3 className="one-title">it's time to enter</h3>
                             <h3 className="one-title">your glow era</h3>
@@ -60,15 +49,21 @@ export default function Home() {
                             <button className="one-btn">Agendar</button>
                         </div>
                     </div>
-                    {/*Seccióm 2*/}
-                    <div className="amaviz-two">
-                        <h3 className="two-title">los favoritos</h3>
-                        <p className="two-text">Micropunción</p>
-                        <p className="two-text">Limpieza Profunda</p>
-                        <p className="two-text">Depilación Bikini Full</p>
-                        <p className="two-text">Depilación Axila</p>
+
+                </div>
+
+                {/*Tarjeta de lealtad*/}
+                <div className="amaviz-lealtad">
+                    <div className="lealtad-content">
+                        <h3 className="lealtad-title">Conoce nuestra</h3>
+                        <h3 className="lealtad-title">Tarjeta de Lealtad</h3>
+                        <p className="descarga-lealtad"><u>Decargala aquí</u></p>
+                    </div>
+                    <img className="img-lealtad" src="/images/home/cupon2.png" alt="tarjeta" />
+                    <div className="video">
                     </div>
                 </div>
+
 
                 {/*Sección de marcas*/}
                 <div className="amaviz-brands">
