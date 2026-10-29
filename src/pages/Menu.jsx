@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import { services } from '../data/services';
+import { services } from '../data/menu.js';
 import '../styles/services.css';
 
-export default function Services() {
+export default function Menu() {
 
     return (
         <section className="amaviz-services" id="services">

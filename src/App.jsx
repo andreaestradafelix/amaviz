@@ -5,11 +5,10 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
 import Home from "./pages/Home";
-import Services from "./pages/Services";
-import MasServicios from "./pages/MasServicios";
+import Menu from "./pages/Menu";
 import About from "./pages/About";
 import Faqs from "./pages/Faqs";
-import Journal from "./pages/Journal";
+import Galeria from "./pages/Galeria";
 
 function App() {
 
@@ -21,13 +20,10 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
-
-            <Route path="/services" element={<Services />}/>
-            <Route path="/services/mas-servicios" element={<MasServicios />}/>
-
+            <Route path="/menu" element={<Menu />}/>
             <Route path="/about" element={<About />}/>
             <Route path="/faqs" element={<Faqs />}/>
-            <Route path="/journal" element={<Journal />}/>
+            <Route path="/galeria" element={<Galeria />}/>
           </Routes>
         </main>
 

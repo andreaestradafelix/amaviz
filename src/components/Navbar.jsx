@@ -12,10 +12,10 @@ export default function Navbar() {
             <nav className="nav">
                 <Link to="/"><img className="nav-logo" src="/images/LogoAmaviz.png" alt="Logo" /></Link>
                 <div className="nav-links">
-                    <Link to="/services">Servicios</Link>
+                    <Link to="/menu">Servicios</Link>
                     <Link to="/about">Acerca de</Link>
                     <Link to="/faqs">FAQs</Link>
-                    <Link to="/journal">Journal</Link>
+                    <Link to="/galeria">Galería</Link>
                 </div>
                 <button className="nav-hamburger" onClick={() => setOpen(o => !o)}>
                     {open ? '✕' : '☰'}
@@ -23,10 +23,10 @@ export default function Navbar() {
             </nav>
 
             <div className={`mobile-menu${open ? ' open' : ''}`}>
-                <Link to="/services" onClick={close}>Servicios</Link>
+                <Link to="/menu" onClick={close}>Servicios</Link>
                 <Link to="/about" onClick={close}>Acerca de</Link>
                 <Link to="/faqs" onClick={close}>FAQs</Link>
-                <Link to="/journal" onClick={close}>Journal</Link>
+                <Link to="/galeria" onClick={close}>Journal</Link>
             </div>
         </div>
     );
